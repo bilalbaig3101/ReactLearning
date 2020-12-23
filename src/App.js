@@ -27,7 +27,7 @@ class App extends React.Component {
     const isDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
     if(isDarkTheme){
       this.setState({dark:true})
-      import('./components/styles/style-dark.css')
+      // import('./components/styles/style-dark.css')
     }
   }
   toogleTheme =() =>{
@@ -36,7 +36,7 @@ class App extends React.Component {
       dark: theme
     })
     if(theme){
-      import('./components/styles/style-light.css')
+      import('./components/styles/style-dark.css')
     }
     else{
       import('./components/styles/style-light.css')
