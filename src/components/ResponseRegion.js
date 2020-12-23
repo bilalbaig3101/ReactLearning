@@ -1,11 +1,11 @@
 import React from 'react'
 const ResponseRegion = ({ data }) => {
     return (
-        <div style={style}>
+        <div className="response-area" style={style}>
             {
                 data === null ?
                     (
-                        <h3 style={{ textAlign: 'center' }}>
+                        <h3 style={{ textAlign: 'center'}}>
                             :( No Data
                         </h3>
                     )
@@ -19,8 +19,10 @@ const ResponseRegion = ({ data }) => {
 }
 
 const style = {
-    backgroundColor: '#FFF', height: '30vh',
-    margin: '15px 0', overflow: 'auto', borderRadius: '5px'
+    height: '30vh',
+    margin: '15px 0', 
+    overflow: 'auto', 
+    borderRadius: '5px'
 }
 
 export default (ResponseRegion)

@@ -10,7 +10,7 @@ const CodeSnippet = ({text}) => {
 const style={
     color: '#E74C3C',
     backgroundColor: '#F9EBEA',
-    padding: '2px 5px',
-    borderRadius:'5px'
+    padding: '0px 8px 2px',
+    borderRadius:'5px',
 }
 export default (CodeSnippet)

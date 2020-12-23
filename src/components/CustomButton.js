@@ -1,7 +1,7 @@
-const CustomButton = ({onClickHandler}) => {
+const CustomButton = ({text,onClickHandler}) => {
     return (
         <button style={style} onClick={onClickHandler}>
-            Test GET
+            {text}
         </button>
     )
 }
