@@ -12,5 +12,6 @@ const style={
     backgroundColor: '#F9EBEA',
     padding: '0px 8px 2px',
     borderRadius:'5px',
+    lineHeight:'30px'
 }
 export default (CodeSnippet)

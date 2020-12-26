@@ -22,7 +22,8 @@ const style = {
     height: '30vh',
     margin: '15px 0', 
     overflow: 'auto', 
-    borderRadius: '5px'
+    borderRadius: '5px',
+    fontSize:'15px'
 }
 
 export default (ResponseRegion)
